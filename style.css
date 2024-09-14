@@ -69,13 +69,13 @@ a {
 }
 
 /* font style css close */
-
 header {
     display: flex;
     width: 100%;
     height: 60px;
     border-bottom: 0.1px solid;
-        border-color: rgba(138, 138, 138, 0.219);
+    border-color: rgba(138, 138, 138, 0.219);
+    
 }
 
 #logo {
@@ -87,12 +87,14 @@ header {
 #logo img {
     display: flex;
     width: 160px;
+    cursor: pointer;
 }
 
 #searchbar {
     display: flex;
     margin: 18px 15px;
     width: 210px;
+    height: 28px;
     background-color: rgba(224, 224, 224, 0.459);
     justify-content: end;
     border-radius: 100px;
@@ -110,6 +112,7 @@ header {
     align-self: center;
     margin-right: 10px;
     color: rgb(102, 102, 102);
+    cursor: pointer;
 }
 nav {
     display: flex;
@@ -120,21 +123,23 @@ nav {
         gap: 35px;
     }
     
+
+
     #writeicon {
         display: flex;
         align-items: center;
-    
+        cursor: pointer;
     }
-    
+
     #writeicon i {
         font-size: 23px;
         margin-right: 10px;
         color: rgba(138, 138, 138, 0.63);
     }
     
-    #writeicon span {
-        display: flex;
-        color: rgb(138, 138, 138);
+
+    #writeicon :hover {
+        color: #5c5c5c;
     }
     
     span #bell {
@@ -145,6 +150,11 @@ nav {
         font-size: 23px;
         margin-right: 10px;
         color: rgba(138, 138, 138, 0.63);
+        cursor: pointer;
+    }
+
+    #bell i:hover {
+        color: #5c5c5c;
     }
     
     #account {
@@ -156,6 +166,7 @@ nav {
         width: 26px;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     
     #account span {
