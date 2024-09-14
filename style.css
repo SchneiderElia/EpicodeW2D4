@@ -320,12 +320,18 @@ main {
     left: -270px;
     top: -20px;    
     opacity: 0;
+    transition-duration: 1.7s;
+    transform:scale(0);
+    transform: scale3d(0deg);
+    
 }
 
-.img_utente:hover .card{
+.autore:hover .card{
     opacity: 1;
-
+    transition: 1.2s;
+    transform: scale(1);
 }
+
 
 .img_follow {
     display: flex;
