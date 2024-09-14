@@ -19,10 +19,42 @@
     font-weight: 400;
     font-size: 1rem;
     font-weight: 100;
+    color: rgba(138, 138, 138, 0.63);
+}
+
+.textnav:hover {
+    color: #242424;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active-link {
+    font-family: "Sourg Ui", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #242424;
+    text-decoration: underline;
+    text-underline-offset: 24px;
 }
 
 
+.disable-link {
+    font-family: "Sourg Ui", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgba(138, 138, 138, 0.63);
+}
+
+.disable-link:hover {
+    color: #5c5c5c;
+}
+
 /* font style css close */
+
 header {
     display: flex;
     width: 100%;
@@ -70,55 +102,120 @@ nav {
     width: 50%;
     align-items: center;
     justify-content: end;
-        padding-right: 45px;
-        gap: 35px;
-    }
-    
-    #writeicon {
-        display: flex;
-        align-items: center;
-    
-    }
-    
-    #writeicon i {
-        font-size: 23px;
-        margin-right: 10px;
-        color: rgba(138, 138, 138, 0.63);
-    }
-    
-    #writeicon span {
-        display: flex;
-        color: rgb(138, 138, 138);
-    }
-    
-    span #bell {
-        display: flex;
-    }
-    
-    #bell i {
-        font-size: 23px;
-        margin-right: 10px;
-        color: rgba(138, 138, 138, 0.63);
-    }
-    
-    #account {
-        display: flex;
-        padding: 4px;
-        background-color: rgb(179, 0, 155);
-        border-radius: 100px;
-        height: 26px;
-        width: 26px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #account span {
-        display: flex;
-        color: whitesmoke;
-        font-size: 18px;
-    }
-    
-    #account:hover {
-        background-color: rgb(155, 1, 134);
-        transition: 0.3s;
+    padding-right: 45px;
+    gap: 35px;
 }
+
+#writeicon {
+    /* display: flex; */
+    align-items: center;
+
+}
+
+#writeicon i {
+    font-size: 23px;
+    margin-right: 10px;
+    color: rgba(138, 138, 138, 0.63);
+}
+
+#writeicon span {
+    /* display: flex; */
+    color: rgb(138, 138, 138);
+}
+
+/*   span #bell {
+    
+    */
+#bell i {
+    font-size: 23px;
+    margin-right: 10px;
+    color: rgba(138, 138, 138, 0.63);
+}
+
+#account {
+    display: flex;
+    padding: 4px;
+    background-color: rgb(179, 0, 155);
+    border-radius: 100px;
+    height: 26px;
+    width: 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+#account span {
+    /* display: flex; */
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+#account:hover {
+    background-color: rgb(155, 1, 134);
+    transition: 0.3s;
+}
+
+main {
+    display: flex;
+   /*  background-color: burlywood; */
+    width: 100%;
+    height: 100vh;
+
+
+
+}
+
+/* left block content  initial */
+
+#articles {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100vh;
+    margin-left: 280px;
+
+}
+
+#correlated {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 100vh;
+    margin-right: 280px;
+}
+
+.articlenav {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    gap: 30px;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 0.1px solid;
+    border-color: rgba(138, 138, 138, 0.219);
+}
+
+
+
+.articlenav ion-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgba(138, 138, 138, 0.63);
+}
+
+.articlenav ion-icon:hover {
+    color: #5c5c5c;
+}
+
+
+/* left block content  closed */
+
+/* right block content  initial */
+
+#correlated {
+    display: flex;
+    border-left: 0.1px solid;
+    border-color: rgba(138, 138, 138, 0.219);
+}
+
+/* right block content  closed */
