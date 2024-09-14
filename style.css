@@ -95,6 +95,7 @@ header {
 #searchbar {
     display: flex;
     margin: 18px 15px;
+    height: 30px;
     width: 210px;
     background-color: rgba(224, 224, 224, 0.459);
     justify-content: end;
