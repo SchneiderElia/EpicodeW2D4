@@ -180,6 +180,9 @@ nav {
         background-color: rgb(155, 1, 134);
         transition: 0.3s;
 }
+
+
+
 main {
     display: flex;
     background-color: burlywood;
@@ -245,3 +248,4 @@ main {
 }
 
 /* right block content  closed */
+
