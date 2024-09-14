@@ -57,9 +57,7 @@ a {
     color: #242424;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 .active-link {
     font-family: "Sourg Ui", sans-serif;
@@ -70,6 +68,7 @@ a {
     text-decoration: underline;
     text-underline-offset: 24px;
 }
+
 /* font style css close */
 
 header {
@@ -95,7 +94,6 @@ header {
 #searchbar {
     display: flex;
     margin: 18px 15px;
-    height: 30px;
     width: 210px;
     background-color: rgba(224, 224, 224, 0.459);
     justify-content: end;
@@ -131,18 +129,7 @@ nav {
     cursor: pointer;
 }
 
-.writeicon i {
-    display: flex;
-    gap: 35px;
-}
-
-#writeicon {
-    /* display: flex; */
-    align-items: center;
-
-}
-
-#writeicon i {
+    .writeicon i {
     font-size: 23px;
     margin-right: 10px;
     color: rgba(138, 138, 138, 0.63);
@@ -157,10 +144,6 @@ nav {
     color: #5c5c5c;
 }
 
-#writeicon span {
-    /* display: flex; */
-    color: rgb(138, 138, 138);
-}
 
 /*   span #bell {
     
@@ -204,72 +187,7 @@ nav {
     background-color: rgb(179, 26, 158);
     transition: 0.3s;
 }
-  
 
-
-main {
-    display: flex;
-   /*  background-color: burlywood; */
-        gap: 35px;
-    }
-
-
-    
-    #writeicon {
-    /* display: flex; */
-        align-items: center;
-    
-    }
-    
-    #writeicon i {
-        font-size: 23px;
-        margin-right: 10px;
-        color: rgba(138, 138, 138, 0.63);
-    }
-    
-    #writeicon span {
-    /* display: flex; */
-        color: rgb(138, 138, 138);
-    }
-/*   span #bell {
-    
-    */
-#bell i {
-        font-size: 23px;
-        margin-right: 10px;
-        color: rgba(138, 138, 138, 0.63);
-    }
-
-    #account {
-        display: flex;
-        padding: 4px;
-        background-color: rgb(179, 0, 155);
-        border-radius: 100px;
-        height: 26px;
-        width: 26px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #account span {
-    /* display: flex; */
-        color: whitesmoke;
-        font-size: 18px;
-    }
-    
-    #account:hover {
-        background-color: rgb(155, 1, 134);
-        transition: 0.3s;
-}
-main {
-    display: flex;
-    background-color: burlywood;
-    width: 100%;
-    height: 100vh;
-
-
-
-}
 
 /* left block content  initial */
 
@@ -312,7 +230,6 @@ main {
 
 .articlenav ion-icon:hover {
     color: #5c5c5c;
-    color: #242424;
 }
 
 
@@ -322,9 +239,9 @@ main {
 
 #correlated {
     display: flex;
+    width: 30%;
     border-left: 0.1px solid;
     border-color: rgba(138, 138, 138, 0.219);
 }
 
 /* right block content  closed */
-
