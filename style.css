@@ -28,6 +28,8 @@
 a {
     color: none;
     text-decoration: none;
+    color:black;
+    
 }
 
 .disable-link {
@@ -90,7 +92,40 @@ a {
 
 }
 
+
+
+
 /* font style article close */
+
+/* font card started */
+
+.font_autor_card {
+    font-family: "Syne", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+}
+
+.font_nfollower {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: lighter;
+
+}
+.font_nfollower span {
+    color: #5c5c5c;
+}
+.font_nfollower span:hover { color: #242424;}
+
+.font_about_card {
+    font-family: "Sourg Ui", sans-serif;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.font_about_card span { text-decoration: underline;}
+
+
+/* font card closed */
 
 
 
@@ -269,6 +304,84 @@ main {
 
 /* left block content  closed */
 
+/* test card over img account started */
+
+.card { 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    background-color: whitesmoke; 
+    position: relative;
+    padding: 25px 0px;
+    border-radius: 9px;
+    box-shadow: 3px 3px 15px #24242485;
+    left: -270px;
+    top: -20px;    
+    opacity: 0;
+}
+
+.img_utente:hover .card{
+    opacity: 1;
+
+}
+
+.img_follow {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 85%;
+    /* background-color: coral; */
+    
+    
+}
+
+.img_autore_card {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    /* background-color: rgb(63, 180, 34); */
+    border-radius: 100%;
+    background-image:url(asset/img_utenti/T.fromDataRocks.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 20px #24242477;
+}
+
+.follow{
+    width: 90px;
+    height: 30px;
+    border-radius: 100px;
+    border:none;
+
+    font-family: "Sourg Ui", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    width: 85%;
+    /* background-color: rgb(168, 63, 25); */
+}
+
+.about {
+    display: flex;
+    width: 85%;
+    margin-top: 30px;
+    /* background-color: rgb(163, 97, 72); */
+}
+
+/* test card over img account closed */
+
 
 /* left inside content  started */
 
@@ -403,18 +516,14 @@ main {
 
 /* left inside content  closed */
 
+
+
 /* right block content  initial */
 
 #correlated {
     display: flex;
     border-left: 0.1px solid;
     border-color: rgba(138, 138, 138, 0.219);
-}
-
-.fumetto {
-    background-color: blueviolet;
-    color: burlywood;
-    position: relative;
 }
 
 /* right block content  closed */
