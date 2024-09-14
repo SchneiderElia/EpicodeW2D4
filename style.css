@@ -173,7 +173,7 @@ nav {
 
 #bell i:hover {
     color: #5c5c5c;
-=======
+
 }
 
 #account {
@@ -203,9 +203,8 @@ nav {
     background-color: rgb(179, 26, 158);
     transition: 0.3s;
 }
-    background-color: rgb(155, 1, 134);
-    transition: 0.3s;
-}
+  
+
 
 main {
     display: flex;
