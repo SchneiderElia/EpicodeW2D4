@@ -188,6 +188,7 @@ main {
 
 #articles {
     display: flex;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 70%;
     height: 100vh;
@@ -230,6 +231,73 @@ main {
 
 /* left block content  closed */
 
+
+/* left inside content  started */
+
+.scrollsection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.aticlebox {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(210, 105, 30, 0.384);
+}
+
+.content {
+    width: 70%;
+    height: 100%;
+    background-color: coral;
+}
+
+.cover {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(224, 92, 44);
+}
+
+.autore {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(203, 255, 80);
+}
+
+.article_title {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(100, 128, 35);
+}
+
+.article_text {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(170, 190, 121);
+}
+.article_metrics {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+}
+
+.metrics {
+    width: 50%;
+    height: 90px;
+    background-color: rgb(202, 76, 76);
+}
+.actions {
+    width: 50%;
+    height: 90px;
+    background-color: rgb(66, 13, 13);
+}
+
+/* left inside content  closed */
+
 /* right block content  initial */
 
 #correlated {
@@ -239,9 +307,4 @@ main {
 }
 
 /* right block content  closed */
-
-/* right inside content  started */
-
-
-/* right inside content  closed */
 
