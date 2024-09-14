@@ -30,23 +30,22 @@ a {
     text-decoration: none;
 }
 
-.active-link {
-    font-family: "Sourg Ui", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    font-weight: 100;
-    color: #242424;
-    text-decoration: underline;
-    text-underline-offset: 24px;
-}
-
-
 .disable-link {
     font-family: "Sourg Ui", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 100;
-    color: rgba(138, 138, 138, 0.63);
+    color: rgb(160, 160, 160);
+}
+
+.active-link {
+    font-family: "Sourg Ui", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgb(114, 114, 114);
+    text-decoration: underline;
+    text-underline-offset: 24px;
 }
 
 .disable-link:hover {
@@ -54,19 +53,11 @@ a {
 }
 
 .textnav:hover {
-    color: #242424;
+    color: #5c5c5c;
 }
 
 
-.active-link {
-    font-family: "Sourg Ui", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    font-weight: 100;
-    color: #242424;
-    text-decoration: underline;
-    text-underline-offset: 24px;
-}
+
 /* font style css close */
 
 /* font style css close */
@@ -185,7 +176,7 @@ nav {
 
 main {
     display: flex;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     width: 100%;
     height: 100vh;
 
@@ -227,9 +218,9 @@ main {
 
 
 .articlenav ion-icon {
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 10px;
-    color: rgba(138, 138, 138, 0.63);
+    color: rgb(160, 160, 160);
 }
 
 .articlenav ion-icon:hover {
