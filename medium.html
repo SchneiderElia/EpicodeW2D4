@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
 </head>
 
 <body>
@@ -39,33 +42,44 @@
 
     <main>
         <section id="articles">
-            <div class="articlenav">
-                <a href="">
-                    <ion-icon name="add-outline"></ion-icon>
-                </a>
-                <a href="">
-                    <span class="active-link">For you</span>
-                </a>
-                <a href="">
-                    <span class="disable-link">Following</span>
-                </a>
+            <div class="articlenavmain">
+                <div class="articlenav">
+                    <a href="">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </a>
+                    <a href="">
+                        <span class="active-link">For you</span>
+                    </a>
+                    <a href="">
+                        <span class="disable-link">Following</span>
+                    </a>
+                </div>
             </div>
 
             <div class="scrollsection">
-<!-- artcle 1 -->
+
+                <!-- start artcle box -->
+
+                <!-- artcle 1 -->
+
                 <div class="aticlebox">
                     <div class="content">
-                        <div class="main_autor">
-<!-- autore 1 -->      <div class="autore">   <!-- autore 1 --> 
-    
-                            <div class="img_utente"> 
-                                <img class="autorimg" src="asset/img_utenti/T.fromDataRocks.png" alt="T.fromDataRocks">   
-                                <div class="overlay"></div>
 
-<!-- card autore 1 -->             <div class="card1">    <!-- card autore 1 -->   
+                        <div class="main_autor">
+
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/T.fromDataRocks.png" alt="">
+                                    <div class="overlay"></div>
+
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
                                         <div class="img_follow">
 
                                             <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/T.fromDataRocks.png"
+                                                    alt="T.fromDataRocks.png">
                                             </div>
                                             <a href="">
                                                 <button class="follow">Follow</button>
@@ -81,33 +95,46 @@
 
                                         <div class="about">
                                             <p class="font_about_card">
-                                                I help people see and do more with their data. Come and check my Data Viz
-                                                Bookshelf every Wednesday! Buy me a coffee: <span>https://ko-fi.com/datarocksnz</span>
+                                                I help people see and do more with their data. Come and check my Data
+                                                Viz
+                                                Bookshelf every Wednesday! Buy me a coffee:
+                                                <span>https://ko-fi.com/datarocksnz</span>
                                             </p>
 
                                         </div>
 
                                     </div>
-                                    
+
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>Julie Zhuo</p>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-<!--box article-->  <div class="autor_name">
-                                <a class="font_autore" href="">
-                                    <p>T. from Data Rocks</p>
-                                </a>
+
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
+
+
+
+                                </div>
+                                <!--box article-->
+
                             </div>
                         </div>
 
                         <div class="article_title">
                             <p class="font_title_article">
-                                Design Matters #6—The Ultimate Dashboard Colour Palette
+                                Design Matters #6 — The Ultimate Dashboard Colour Palette
                             </p>
                         </div>
 
                         <div class="article_text">
                             <p class="font_article">
-                                This is a repost of the Design Matters series I run as part of my newsletter,
-                                originally sent to my subscribers on 18 August 2023.
+                                This is a repost of the Design Matters series I run as part of
+                                my newsletter, originally sent to my subscribers on 18 August 2023.
                             </p>
                         </div>
 
@@ -119,21 +146,26 @@
                                     <span class="font_metrics">Aug 27</span>
                                 </div>
 
-                                <div class="clap">
-                                    <img src="asset/wave.png" alt="wave" title="159 clap">
-                                    <span class="font_metrics">159</span>
+                                <div class="clap" title="160 clap">
+                                    <img src="asset/wave.png" alt="wave">
+                                    <span class="font_metrics">160</span>
                                 </div>
 
-                                <div class="message">
-                                    <i class="fa-solid fa-comment" aria-label="message" title="2 responses"></i>
+                                <div class="message" title="2 responses">
+                                    <i class="fa-solid fa-comment"></i>
                                     <span class="font_metrics">2</span>
                                 </div>
                             </div>
 
                             <div class="actions">
-                                <ion-icon title="Show less like this" name="remove-circle-outline"></ion-icon>
+                            <!--     <ion-icon title="Show less like this" name="remove-circle-outline"></ion-icon>
                                 <ion-icon title="save" name="bookmark-outline"></ion-icon>
-                                <ion-icon title="more" name="ellipsis-horizontal"></ion-icon>
+                                <ion-icon title="more" name="ellipsis-horizontal"></ion-icon> -->
+
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
+
                             </div>
 
                         </div>
@@ -142,22 +174,27 @@
                         <img src="asset/img_article/article01.webp" alt="article01">
                     </div>
                 </div>
-<!-- artcle 2 -->
+
+                <!-- artcle 2 -->
 
                 <div class="aticlebox">
                     <div class="content">
 
                         <div class="main_autor">
 
-<!-- autore 1 -->        <div class="autore"> <!-- autore 1 -->
-                            <div class="img_utente">
-                                <img class="autorimg" src="asset/img_utenti/Julie Zhuo.jpg" alt="Julie Zhouo">
-                                <div class="overlay"></div>
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/Julie Zhuo.jpg" alt="Julie Zhouo">
+                                    <div class="overlay"></div>
 
-<!-- card autore 1 -->              <div class="card1">      <!-- card autore 1 --> 
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
                                         <div class="img_follow">
 
                                             <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/Julie Zhuo.jpg"
+                                                    alt="Julie Zhuo.jpg">
                                             </div>
                                             <a href="">
                                                 <button class="follow">Follow</button>
@@ -166,37 +203,44 @@
 
                                         <div class="name">
                                             <a href="">
-                                                <p class="font_autor_card">T. from Data Rocks</p>
+                                                <p class="font_autor_card">Julie Zhouo</p>
                                             </a>
-                                            <p class="font_nfollower">373<span>Follower</span></p>
+                                            <p class="font_nfollower">233K<span>Follower</span></p>
                                         </div>
 
                                         <div class="about">
                                             <p class="font_about_card">
-                                                I help people see and do more with their data. Come and check my Data Viz
-                                                Bookshelf every Wednesday! Buy me a coffee: <span>https://ko-fi.com/datarocksnz</span>
+                                                Building Sundial <span>(sundial.so)</span>. Former Product Design VP @
+                                                FB.
+                                                Author of The Making of a Manager. Find me @joulee.
+                                                I love people, nuance, and systems.
                                             </p>
 
                                         </div>
 
                                     </div>
-                                    
-                            </div>
-                            <div class="autor_name">
-                                <a class="font_autore" href="">
-                                    <p>Julie Zhuo</p>
-                                </a>
-                            </div>
-                        </div>
 
-<!-- autore 2 -->       <div class="autore2"> <!-- autore 2 -->
-                            <div class="img_utente2">
-                                
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>Julie Zhuo</p>
+                                    </a>
+                                </div>
+                            </div>
 
-<!-- card autore 2 -->              <div class="card2">   <!-- card autore 2 --> 
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
+
+
+                                    <!-- card autore 2 -->
+                                    <div class="card2"> <!-- card autore 2 -->
                                         <div class="img_follow">
 
                                             <div class="img_autore_card">
+                                                <img class="img_autore_card"
+                                                    src="asset/img_utenti/the-year-of-the-looking-glass.jpg"
+                                                    alt="the-year-of-the-looking-glass.jpg">
                                             </div>
                                             <a href="">
                                                 <button class="follow">Follow</button>
@@ -204,31 +248,35 @@
                                         </div>
 
                                         <div class="name">
+                                            <p class="font_autore">Publication</p>
                                             <a href="">
-                                                <p class="font_autor_card">T. from Data Rocks</p>
+                                                <p class="font_autor_card">
+                                                    The Year of the Looking Glass
+                                                </p>
                                             </a>
-                                            <p class="font_nfollower">373<span>Follower</span></p>
+                                            <p class="font_nfollower">54K<span>Follower</span></p>
                                         </div>
 
                                         <div class="about">
                                             <p class="font_about_card">
-                                                I help people see and do more with their data. Come and check my Data Viz
-                                                Bookshelf every Wednesday! Buy me a coffee: <span>https://ko-fi.com/datarocksnz</span>
+                                                A collection of essays by Julie Zhuo on design, building products, and
+                                                observing life.
                                             </p>
 
                                         </div>
 
                                     </div>
-                                    
-                            </div>
-<!--box article-->  <div class="autor_name">
-                                 <span class="in">in</span>
-                                <a class="font_autore" href="">
-                                    <p>The Year of the Looking Glass</p>
-                                </a>
+
+                                </div>
+                                <!--box article-->
+                                <div class="autor_name">
+                                    <span class="in">in</span>
+                                    <a class="font_autore" href="">
+                                        <p>The Year of the Looking Glass</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
                         <div class="article_title">
                             <p class="font_title_article">
@@ -238,7 +286,8 @@
 
                         <div class="article_text">
                             <p class="font_article">
-                                I like words a lot. But sometimes a few sketches communicate a point more simply and memorably.
+                                I like words a lot. But sometimes a few sketches communicate a point more simply and
+                                memorably.
                             </p>
                         </div>
 
@@ -250,21 +299,22 @@
                                     <span class="font_metrics">Sep,9 2014</span>
                                 </div>
 
-                                <div class="clap">
-                                    <img src="asset/wave.png" alt="wave" title="15.9K clap">
+                                <div class="clap" title="15.9K clap">
+                                    <img src="asset/wave.png" alt="wave">
                                     <span class="font_metrics">15.9K</span>
                                 </div>
 
-                                <div class="message">
-                                    <i class="fa-solid fa-comment" aria-label="message" title="76 responses"></i>
+                                <div class="message" title="76 responses">
+                                    <i class="fa-solid fa-comment" aria-label="message"></i>
                                     <span class="font_metrics">76</span>
                                 </div>
                             </div>
 
                             <div class="actions">
-                                <ion-icon title="Show less like this" name="remove-circle-outline"></ion-icon>
-                                <ion-icon title="save" name="bookmark-outline"></ion-icon>
-                                <ion-icon title="more" name="ellipsis-horizontal"></ion-icon>
+                               
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
                             </div>
 
                         </div>
@@ -273,12 +323,810 @@
                         <img src="asset/img_article/article02.webp" alt="article02">
                     </div>
                 </div>
-             
+
+                <!-- artcle 3 -->
+
+                <div class="aticlebox">
+                    <div class="content">
+
+                        <div class="main_autor">
+
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/Jano le Roux.jpg" alt="Jano le Roux">
+                                    <div class="overlay"></div>
+
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/Jano le Roux.jpg"
+                                                    alt="Jano le Roux">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <a href="">
+                                                <p class="font_autor_card">Jano le Roux</p>
+                                            </a>
+                                            <p class="font_nfollower">47K<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                An award-winning marketing consultant who helps high-growth brands craft
+                                                marketing that doesn’t feel like marketing. Open for work—...
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>Jano le Roux</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
 
 
-        </section>
+                                    <!-- card autore 2 -->
+                                    <div class="card2"> <!-- card autore 2 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/idea_whit_wings.png"
+                                                    alt="idea_whit_wings.png">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <p class="font_autore">Publication</p>
+                                            <a href="">
+                                                <p class="font_autor_card">
+                                                    Idea Whit Wings
+                                                </p>
+                                            </a>
+                                            <p class="font_nfollower">201<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                Get smarter at making your world better by embracing underrated ideas
+                                                that you could use to — one day — change the world for the better.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--box article-->
+                                <div class="autor_name">
+                                    <span class="in">in</span>
+                                    <a class="font_autore" href="">
+                                        <p>
+                                            Ideas With Wings
+
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_title">
+                            <p class="font_title_article">
+                                Apple Just Silently Launched A Mind-blowing Feature And Nobody Is Talking About It
+                            </p>
+                        </div>
+
+                        <div class="article_text">
+                            <p class="font_article">
+                                Why aren’t more people talking about this!?
+                            </p>
+                        </div>
+
+                        <div class="article_metrics">
+                            <div class="metrics">
+
+                                <div class="member">
+                                    <img src="asset/sparkling.png" alt="sparkling" title="Member-only story">
+                                    <span class="font_metrics">Jun 17</span>
+                                </div>
+
+                                <div class="clap" title="10.6K clap">
+                                    <img src="asset/wave.png" alt="wave">
+                                    <span class="font_metrics">10.6K</span>
+                                </div>
+
+                                <div class="message" title="76 responses">
+                                    <i class="fa-solid fa-comment" aria-label="message"></i>
+                                    <span class="font_metrics">198</span>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                              
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="asset/img_article/article03.webp" alt="article03">
+                    </div>
+                </div>
+
+                <!-- artcle 4 -->
+
+                <div class="aticlebox">
+                    <div class="content">
+
+                        <div class="main_autor">
+
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/TA Hall.jpg" alt="TA Hall">
+                                    <div class="overlay"></div>
+
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/TA Hall.jpg"
+                                                    alt="TA Hall">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <a href="">
+                                                <p class="font_autor_card">TA Hall</p>
+                                            </a>
+                                            <p class="font_nfollower">205<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                Pretend writer. Pretend photographer. Pretend Anthropologist. Real nerd.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>TA Hall</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
+
+
+
+                                </div>
+                                <!--box article-->
+
+                            </div>
+                        </div>
+
+                        <div class="article_title">
+                            <p class="font_title_article">
+                                From Fujifilm to Full-Frame DSLR, And Back: Lessons Learned
+                            </p>
+                        </div>
+
+                        <div class="article_text">
+                            <p class="font_article">
+                                The Mistake.
+                            </p>
+                        </div>
+
+                        <div class="article_metrics">
+                            <div class="metrics">
+
+                                <div class="member">
+                                    <!-- <img src="asset/sparkling.png" alt="sparkling" title="Member-only story"> -->
+                                    <span class="font_metrics">Sep 4</span>
+                                </div>
+
+                                <div class="clap" title="561 clap">
+                                    <img src="asset/wave.png" alt="wave">
+                                    <span class="font_metrics">561</span>
+                                </div>
+
+                                <div class="message" title="11 responses">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span class="font_metrics">11</span>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                           
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="asset/img_article/article04.webp" alt="article04">
+                    </div>
+                </div>
+
+                <!-- artcle 5 -->
+
+                <div class="aticlebox">
+                    <div class="content">
+
+                        <div class="main_autor">
+
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/Michal Malewicz.png"
+                                        alt="Michal Malewicz">
+                                    <div class="overlay"></div>
+
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/Michal Malewicz.png"
+                                                    alt="Michal Malewicz">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <a href="">
+                                                <p class="font_autor_card">Michal Malewicz
+
+                                                </p>
+                                            </a>
+                                            <p class="font_nfollower">92K<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                One design and one lifestyle story per week Redefine education at
+                                                <span><a href="https://square.one">https://square.one</a></span> → run
+                                                <span><a href=" https://squareblack.com">
+                                                        https://squareblack.com</a></span> → talk at...
+                                            </p>
+
+                                        </div>
+                                        <div class="icon_block">
+                                            <img class="icon_autorname_card" src="asset/bookauthor.svg" alt="">
+                                            <span class="font_about_card">Book Author</span>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>Michal Malewicz <img class="icon_autorname" src="asset/bookauthor.svg"></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
+
+
+
+                                </div>
+                                <!--box article-->
+
+                            </div>
+                        </div>
+
+                        <div class="article_title">
+                            <p class="font_title_article">
+                                Figma is not forever.
+                            </p>
+                        </div>
+
+                        <div class="article_text">
+                            <p class="font_article">
+                                And inVision is now gone.
+                            </p>
+                        </div>
+
+                        <div class="article_metrics">
+                            <div class="metrics">
+
+                                <div class="member">
+                                    <img src="asset/sparkling.png" alt="sparkling" title="Member-only story">
+                                    <span class="font_metrics">Jan 6</span>
+                                </div>
+
+                                <div class="clap" title="2.6K clap">
+                                    <img src="asset/wave.png" alt="wave">
+                                    <span class="font_metrics">2.6K</span>
+                                </div>
+
+                                <div class="message" title="53 responses">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span class="font_metrics">53</span>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                            
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="asset/img_article/article05.webp" alt="article05">
+                    </div>
+                </div>
+
+                <!-- artcle 6 -->
+
+                <div class="aticlebox">
+                    <div class="content">
+
+                        <div class="main_autor">
+
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/Shuai Li.png" alt="Shuai Li">
+                                    <div class="overlay"></div>
+
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/Shuai Li.png"
+                                                    alt="Shuai Li">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <a href="">
+                                                <p class="font_autor_card">Shuai Li</p>
+                                            </a>
+                                            <p class="font_nfollower">6.9K<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                An enthusiastic game player of Earth Online.
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>Shuai &nbsp;&nbsp;&nbsp;&nbsp; Li</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
+
+
+                                    <!-- card autore 2 -->
+                                    <div class="card2"> <!-- card autore 2 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card"
+                                                    src="asset/img_utenti/Programming Domain.png"
+                                                    alt="Programming Domain.png">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <p class="font_autore">Publication</p>
+                                            <a href="">
+                                                <p class="font_autor_card">
+                                                    Programming Domain
+                                                </p>
+                                            </a>
+                                            <p class="font_nfollower">610<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                The website is maintained by bitfishxyz, Inc. Email:
+                                                <span><a
+                                                        href="mailto:Email: bitfishxyz@gmail.com">bitfishxyz@gmail.com</a></span>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--box article-->
+                                <div class="autor_name">
+                                    <span class="in">in</span>
+                                    <a class="font_autore" href="">
+                                        <p>
+                                            Programming Domain
+
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_title">
+                            <p class="font_title_article">
+                                Can You Answer This Senior Level JavaScript Promise Interview Question?
+                            </p>
+                        </div>
+
+                        <div class="article_text">
+                            <p class="font_article">
+                                Most interviewees failed on it.
+                            </p>
+                        </div>
+
+                        <div class="article_metrics">
+                            <div class="metrics">
+
+                                <div class="member">
+                                    <img src="asset/sparkling.png" alt="sparkling" title="Member-only story">
+                                    <span class="font_metrics">Aug 12</span>
+                                </div>
+
+                                <div class="clap" title="2K clap">
+                                    <img src="asset/wave.png" alt="wave">
+                                    <span class="font_metrics">2K</span>
+                                </div>
+
+                                <div class="message" title="19responses">
+                                    <i class="fa-solid fa-comment" aria-label="message"></i>
+                                    <span class="font_metrics">19</span>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                      
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="asset/img_article/article06.webp" alt="article06">
+                    </div>
+                </div>
+
+                <!-- artcle 7 -->
+
+                <div class="aticlebox">
+                    <div class="content">
+
+                        <div class="main_autor">
+
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/Dr. Derek Austin.jpg"
+                                        alt="Dr. Derek Austin">
+                                    <div class="overlay"></div>
+
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/Dr. Derek Austin.jpg"
+                                                    alt="Dr. Derek Austin ">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <a href="">
+                                                <p class="font_autor_card">Dr. Derek Austin 🥳
+                                                    <span class="font_autore">he/him</span>
+
+                                                </p>
+                                            </a>
+                                            <p class="font_nfollower">17.5K<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                Hi, I'm Doctor Derek! I've been a professional web developer since 2005,
+                                                and I love writing about programming with JavaScript, TypeScript,
+                                                React,..
+                                            </p>
+
+                                        </div>
+                                        <div class="icon_block">
+                                            <img class="icon_autorname_card" src="asset/bookauthor.svg" alt="">
+                                            <span class="font_about_card">Book Author</span>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>Dr. Derek Austin🥳
+                                            <img class="icon_autorname" src="asset/bookauthor.svg">
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
+
+
+                                    <!-- card autore 2 -->
+                                    <div class="card2"> <!-- card autore 2 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card"
+                                                    src="asset/img_utenti/Career Programming.png"
+                                                    alt="Career Programming.png">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <p class="font_autore">Publication</p>
+                                            <a href="">
+                                                <p class="font_autor_card">
+                                                    Career Programming
+                                                </p>
+                                            </a>
+                                            <p class="font_nfollower">126<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                Programming career advice for professional software engineers
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--box article-->
+                                <div class="autor_name">
+                                    <span class="in">in</span>
+                                    <a class="font_autore" href="">
+                                        <p>
+                                            Career Programming
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_title">
+                            <p class="font_title_article">
+                                Steve Jobs Hated User Research. Here’s Why I Agree With Him.
+                            </p>
+                        </div>
+
+                        <div class="article_text">
+                            <p class="font_article">
+                                People have no idea what they want, and product managers would be better served by
+                                writing tickets for their engineers. Here’s why your users’ overconfident predictions
+                                are garbage.
+                            </p>
+                        </div>
+
+                        <div class="article_metrics">
+                            <div class="metrics">
+
+                                <div class="member">
+                                    <img src="asset/sparkling.png" alt="sparkling" title="Member-only story">
+                                    <span class="font_metrics">Jun 31</span>
+                                </div>
+
+                                <div class="clap" title="1.6K clap">
+                                    <img src="asset/wave.png" alt="wave">
+                                    <span class="font_metrics">1.6K</span>
+                                </div>
+
+                                <div class="message" title="101 responses">
+                                    <i class="fa-solid fa-comment" aria-label="message"></i>
+                                    <span class="font_metrics">101</span>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                            
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="asset/img_article/article07.webp" alt="article07">
+                    </div>
+                </div>
+
+                <!-- artcle 8 -->
+
+                <div class="aticlebox">
+                    <div class="content">
+
+                        <div class="main_autor">
+
+                            <!-- autore 1 -->
+                            <div class="autore"> <!-- autore 1 -->
+                                <div class="img_utente">
+                                    <img class="autorimg" src="asset/img_utenti/Michelle Wiles.jpg" alt="Michelle Wiles.png">
+                                    <div class="overlay"></div>
+
+                                    <!-- card autore 1 -->
+                                    <div class="card1"> <!-- card autore 1 -->
+                                        <div class="img_follow">
+
+                                            <div class="img_autore_card">
+                                                <img class="img_autore_card" src="asset/img_utenti/Michelle Wiles.jpg"
+                                                    alt="TMichelle Wiles.png">
+                                            </div>
+                                            <a href="">
+                                                <button class="follow">Follow</button>
+                                            </a>
+                                        </div>
+
+                                        <div class="name">
+                                            <a href="">
+                                                <p class="font_autor_card">Michelle Wiles </p>
+                                            </a>
+                                            <p class="font_nfollower">14.2K<span>Follower</span></p>
+                                        </div>
+
+                                        <div class="about">
+                                            <p class="font_about_card">
+                                                Breaking down brands and strategy. CEO of Embedded. Former P&G, McKinsey, Ogilvy.
+                                                <span><a href="embeddedbrandstrategy.com">embeddedbrandstrategy.com</a> </span>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="autor_name">
+                                    <a class="font_autore" href="">
+                                        <p>Michelle Wiles 🪄📈</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- autore 2 -->
+                            <div class="autore2"> <!-- autore 2 -->
+                                <div class="img_utente2">
+
+
+
+                                </div>
+                                <!--box article-->
+
+                            </div>
+                        </div>
+
+                        <div class="article_title">
+                            <p class="font_title_article">
+                                The AI Popularity contest
+                            </p>
+                        </div>
+
+                        <div class="article_text">
+                            <p class="font_article">
+                                Analyzing the brand strategies of ChatGPT, <br>Gemini, Claude, and Perplexity
+                            </p>
+                        </div>
+
+                        <div class="article_metrics">
+                            <div class="metrics">
+
+                                <div class="member">
+                                    <img src="asset/sparkling.png" alt="sparkling" title="Member-only story">
+                                    <span class="font_metrics">2d ago</span>
+                                </div>
+
+                                <div class="clap" title="751 clap">
+                                    <img src="asset/wave.png" alt="wave">
+                                    <span class="font_metrics">751</span>
+                                </div>
+
+                                <div class="message" title="8 responses">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span class="font_metrics">8</span>
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                            
+                                <span  title="Show less like this" class="material-symbols-outlined"> unknown_5 </span>
+                                <span title="save" class="material-symbols-outlined"> bookmark_add </span>
+                                <span  title="more" class="material-symbols-outlined"> more_horiz </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="asset/img_article/article8.1.png" alt="article8.1">
+                    </div>
+                </div>
+
+
+                <div class="space">
+                    
+                </div>
+         </section>
+       
+
+        
 
         <section id="correlated">
+            
 
         </section>
 

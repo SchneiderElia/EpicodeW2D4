@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/* body{ overflow-y:hidden ;} */
+
 /* font style css 
 
 .syne-<uniquifier> {
@@ -47,7 +49,7 @@ a {
     font-weight: 100;
     color: rgb(114, 114, 114);
     text-decoration: underline;
-    text-underline-offset: 24px;
+    text-underline-offset: 29px;
 }
 
 .disable-link:hover {
@@ -120,6 +122,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     font-weight: lighter;
+    margin-top: 10px;
 
 }
 .font_nfollower span {
@@ -147,6 +150,9 @@ header {
     height: 60px;
     border-bottom: 0.1px solid;
     border-color: rgba(138, 138, 138, 0.219);
+    position:fixed;
+    z-index: 9999;
+    background-color: white;
     
 }
 
@@ -261,6 +267,7 @@ main {
     /* background-color: burlywood; */
     width: 100%;
     height: 100vh;
+    
 
 
 
@@ -275,7 +282,7 @@ main {
     width: 70%;
     height: 100vh;
     margin-left: 280px;
-
+    /*  overflow: scroll; */
 }
 
 #correlated {
@@ -286,10 +293,21 @@ main {
     margin-right: 280px;
 }
 
+.articlenavmain {
+    display: flex;
+    /* position: fixed; */
+    width:47%;
+    position: sticky;
+   
+   
+    background-color: rgb(255, 255, 255);
+ 
+}
+
 .articlenav {
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: rgb(255, 255, 255);
     gap: 30px;
     align-items: center;
@@ -297,6 +315,10 @@ main {
     margin-bottom: 40px;
     border-bottom: 0.1px solid;
     border-color: rgba(138, 138, 138, 0.219);
+    padding-top: 30px;
+    position: fixed;
+
+
 }
 
 
@@ -333,6 +355,7 @@ main {
     transition-duration: 1.7s;
     transform:scale(0);
     transform: scale3d(0deg);
+    
     
 }
 
@@ -384,11 +407,10 @@ main {
     height: 70px;
     /* background-color: rgb(63, 180, 34); */
     border-radius: 100%;
-    background-image:url(asset/img_utenti/T.fromDataRocks.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 1px 1px 20px #24242477;
 }
+
+
 
 .follow{
     width: 90px;
@@ -408,32 +430,62 @@ main {
 .name {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     margin-top: 20px;
     width: 85%;
     /* background-color: rgb(168, 63, 25); */
 }
 
+
 .about {
     display: flex;
+    flex-direction: column;
     width: 85%;
     margin-top: 30px;
     /* background-color: rgb(163, 97, 72); */
 }
 
+.icon_block{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    color:#437aff;
+    margin-top: 20px;
+    gap: 10px;
+}
+.icon_block span {
+    font-weight: bold;
+}
+
+.icon_autorname_card {
+    width: 20px;
+    height: 20px;
+}
+
+/* p:first-child{
+    display: flex;
+    flex-direction: column;
+} */
 /* test card over img account closed */
 
 
 /* left inside content  started */
 
+
+
 .scrollsection {
     display: flex;
     flex-direction: column;
     gap: 70px;
-    width: 100%;
-    height: 100vh;
-    /* background-color: bisque; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* background-color: bisque; */ 
+   /*  overflow: scroll; */
+   margin-top: 200px;
+    
 }
+
+/* .scrollsection::-webkit-scrollbar { display: none;} */
 
 .main_autor{
     display: flex;
@@ -458,7 +510,7 @@ main {
 .cover {
     display: flex;
     align-items: end;
-    width: 40%;
+    width: 35%;
     /* background-color: rgb(224, 92, 44); */
 }
 .cover img{
@@ -508,6 +560,11 @@ main {
     border-radius: 100%;
 }
 
+.img_utente_vuota {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
 
 .img_utenteNO {
     display: flex;
@@ -537,11 +594,24 @@ main {
     align-items: center;
   
 }
+.autor_name p{
+    display: flex;
+    align-items: center;
+}
+
+.icon_autorname {
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+}
 
 .article_title {
     display: flex;
-    width: 100%;
-    margin: 7px 0px;
+    width: 95%;
+   /*  margin: 7px 0px; */
+   margin-top: 7px;
+   margin-bottom: 7px;
+    
     /* background-color: rgb(100, 128, 35); */
 }
 
@@ -599,13 +669,41 @@ main {
     width: 50%;
     /* background-color: rgb(172, 117, 117); */
 }
-.actions ion-icon { 
-    font-size: 23px; color: #5c5c5c;}
+/* .actions ion-icon i { 
+    font-size: 23px; color: #5c5c5c;} */
 
-.actions ion-icon:hover {
+/* .actions ion-icon :hover {
     color:#242424;
+} */
+
+.material-symbols-outlined {
+    font-size: 20px;
+    color: #5c5c5c;
+}
+.material-symbols-outlined:hover {
+    color:#012c64;
 }
 
+.space {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: -10px;
+    width: 100%;
+    height: 100px;
+    
+  /*   background-color: rgb(170, 190, 121); */
+
+   cursor: pointer;
+
+}
+ .space i {
+    font-size: 40px;
+    transform: scale(2);
+    
+    
+ }
 
 
 
