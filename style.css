@@ -105,6 +105,13 @@ a {
 }
 
 
+.font_title_staff {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;  
+}
+
 
 
 /* font style article close */
@@ -279,7 +286,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    width: 70%;
+    width: 80%;
     height: 100vh;
     margin-left: 280px;
     /*  overflow: scroll; */
@@ -477,11 +484,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 70px;
-    /* width: 100%; */
+    /* width:110%; */
     /* height: 100vh; */
     /* background-color: bisque; */ 
    /*  overflow: scroll; */
-   margin-top: 200px;
+   margin-top: 100px;
     
 }
 
@@ -715,11 +722,162 @@ main {
 
 #correlated {
     display: flex;
+    flex-direction: column;
     border-left: 0.1px solid;
     border-color: rgba(138, 138, 138, 0.219);
+    /* background-color: brown; */
+    margin-top: 200px;
+    padding-left: 80px;
+   position: sticky;
+   top: 0;
+
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+   /*  position: fixed;
+
+  */
+    offset:left 30px ; 
+}
+
+.staff {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 500px; */
+    gap: 10px;
+    /* background-color: #437aff; */
+}
+
+.content_staff {
+    width: 100%;
+   /*  background-color: coral; */
+
+}
+
+.article_title_staff {
+    display: flex;
+    /* background-color: rgb(100, 128, 35); */
+}
+
+.seemore {
+    display: flex;
+    width: 100%;
+    font-family: "Sourg Ui", sans-serif;
+    font-size: 0.9rem;
+    color: green;
+    margin-top: 10px;
+    /* background-color: #437aff; */
 }
 
 
+
+
+.seemore a:hover {
+    color: rgb(1, 56, 1);
+}
+
+.raccomanded {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin-top: 50px;
+    /* background-color: #437aff; */
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+   /*  background-color: #437aff; */
+}
+
+.topics button{
+    width: auto;
+    padding: 0px 20px;
+    background-color: #dfdfdf;
+    color: #242424;
+}
+
+.topics div{
+    display: flex;
+
+}
+
+.topics button:hover{background-color: rgba(0, 0, 0, 0.699); color: white;}
+
+.who_to_follow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    /* background-color: #437aff; */
+}
+
+.who_to_follow_utente {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    
+    margin-top: 25px;
+}
+
+.utente_to_follow {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    
+}
+.autor_box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.autor_box p {
+    display: flex;
+    align-items: center;
+}
+
+.followbuttonfollow {
+    display: flex;    
+
+}
+
+.readinglist{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin-top: 50px;
+   
+}
+.readinglist p {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100%;
+    gap: 5px;
+    margin-top: 50px;
+    
+
+}
+
+.footer a {
+    display: flex;
+}
 /* right block content  closed */
 
 /* right block inside started  */
